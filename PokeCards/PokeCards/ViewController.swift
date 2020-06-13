@@ -24,6 +24,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         
+        sceneView.autoenablesDefaultLighting = true
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
